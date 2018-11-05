@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+
+
+
+
 <html>
 <head>
 	<title>Javascript + DOM</title>
@@ -6,17 +11,20 @@
 </head>
 <body>
 	<h1>Shopping List</h1>
-	<p id="first">Get it done today</p>
+
+	<h2 id="h2test">Get it done today</h2>
 	<input id="user-input" type="text" placeholder="enter items">
 	<button id="enter">Click me!</button>
 	<ul>
-		<li class="bod red" random="23">Notebook</li>
-		<li>Jello</li>
-		<li>Spinach</li>
-		<li>Rice</li>
-		<li>Birthday Cake</li>
-		<li>Candles</li>
+		<li id="li1" class="completed">Notebook<span class="off-set"><button class="delete">Delete</button></span></li>
+		<li class="completed">Jello<span class="off-set"><button class="delete">Delete</button></span></li>
+		<li class="completed">Spinach<span class="off-set"><button class="delete">Delete</button></span></li>
+		<li class="completed">Rice<span class="off-set"><button class="delete">Delete</button></span></li>
+		<li class="completed">Birthday Cake<span class="off-set"><button class="delete">Delete</button></span></li>
+		<li class= "completed">Candles<span class="off-set"><button class="delete">Delete</button></span></li>
 
 	</ul>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="script.js">
+		'use-strict'
+	</script>
 </html>
