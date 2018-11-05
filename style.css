@@ -1,0 +1,32 @@
+.done {
+	text-decoration: line-through;
+	
+}
+.inline {
+	display: inline-block;
+}
+.off-set {
+	margin-left: 5px;
+}
+.delete {
+
+}
+.delete-after {
+
+}
+.class-li-all {
+	
+}
+.completed {
+
+}
+/*
+create event listeners, 
+for each individual li
+click
+use queryselectorall, classlist [i] in a for loop 
+or individual id's?
+if 
+
+toggle parents parent 
+ */
